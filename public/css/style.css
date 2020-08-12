@@ -1,0 +1,727 @@
+ /**
+    *
+    * ceci est lw style de toute la page
+    *
+ */
+
+ /*
+ logo
+ */
+ body{
+    overflow-x: hidden;
+ }
+ #logo{
+     position: fixed;
+     top: 20vh;
+     left: 45%;
+     width: 15vh; 
+     transform: scale(1);
+ }
+
+ #logo:hover{
+     cursor: pointer;
+ }
+
+ #logo:active{
+     transform: scale(1.2);
+ }
+ /*
+ logo
+ */
+
+ /* la page add */
+ .page{
+     width:25vh;
+     height: 12.5vh;
+     background-color: white;
+     border-radius: 0.5vh;
+     overflow: hidden;
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.616);
+     border: 1px solid transparent;
+     float: left;
+     margin: 1vh;
+     transform: scale(1);
+
+ }
+ .page:active{
+    transform: scale(0.95);
+
+ }
+ .page:hover{
+    cursor: pointer;
+box-shadow: 1px 1px 4px #aaa;  
+}
+
+ .page img{
+    margin: 0 1vh 0 0;
+ }
+
+ .page p{
+     font-family: sans-serif;
+ }
+
+ /* la page add */
+
+ 
+ /*
+    button retour 
+ */
+ .back{
+    position: fixed;
+    top:3vh;
+    left: 3vh;
+    z-index: 20;
+ }
+ .back img{
+     width:5vh;
+    
+ }
+ .back img:hover{
+     cursor: pointer;
+ }
+
+ .back img:active{
+    width:4vh;
+    left: 3.5vh;
+    top:3.5vh;
+
+
+ }
+
+ /*
+    finbutton retour 
+ */
+
+/* add */
+.add{
+    width: 50%;
+    height: auto;
+    background-color: WHITE;
+    position: relative;
+    top: 4vh;
+    left: 20vh;
+    border-radius: 1vh;
+   
+
+}
+.add h1{
+    margin: 0 ;
+    padding: 1vh;
+    text-align: center;
+    width: 100%;
+    background-color: green;
+    color: white;
+    font-size: 2vh;
+}
+.add-content{
+    padding: 2vh;
+}
+
+.total{
+    position: fixed;
+    right: 25vh;
+    width:30vh;
+    height: auto;
+    background-color: white;
+    top: 7vh;
+    float: right;
+    border-radius: 1vh;
+    overflow: hidden;
+}
+
+.total h1{
+    margin: 0 ;
+    padding: 1vh;
+    text-align: center;
+    width: 100%;
+    background-color: green;
+    color: white;
+    font-size: 2vh;
+    
+}
+ /* the end add */
+
+ /*  message  */
+ .sms{
+    position: fixed;
+    right: 25vh;
+    width:30vh;
+    height: auto;
+    background-color: white;
+    top: 20vh;
+    float: right;
+    padding: 2vh;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 1vh;
+ }
+ /* the end   message  */
+ 
+ /*
+ reset
+ 
+ */
+ .reset{
+     position: fixed;
+     top: 40vh;
+     left: 40%;
+     z-index: 4;
+     background-color: white;
+     padding: 3vh;
+     border-radius: 1vh;
+     box-shadow: 1px 1px 1px #aaa;
+ }
+
+/*
+ the end reset
+ 
+ */
+
+ /*
+ cont
+ **/
+ .cont{
+              
+    background-size: 100%;
+    position: absolute;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.cont::before{
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+    content: "";
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-size: cover;
+
+}
+  /*
+    the end cont
+ **/
+ /*  container */
+ .container{
+    position: fixed;
+    top: 35%;
+    z-index: 2;
+    left: 22%;
+    width: 30%;
+ }
+
+ #content{
+    margin: 3vh 0;
+ }
+ /*  container */
+
+ /** depense **/
+ .depense{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    top: 4vh;
+    border-radius: 1vh;
+    overflow: hidden;
+    margin: 0 auto;
+    left: -5vh;
+ }
+ /** the end depense **/
+
+ /* member */
+ .member{
+    width: 25vh;
+    height: 3vh;
+    background-color: white;
+    border-radius: 1vh;
+    margin: -4.5vh 1vh 1vh ;
+    text-align: center;
+    border: 1px solid;
+    display: block;
+    line-height: 4vh;
+    text-decoration: none;
+ }
+
+ .member:hover{
+    text-decoration: none;
+    color: white;
+    background-color: yellowgreen;
+ }
+ .member img{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10vh; 
+ }
+ /* the end member */
+
+ /* transfer */
+ .transfer{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    top: 4vh;
+    border-radius: 1vh;
+    overflow: hidden;
+    margin: 0 auto;
+    left: -5vh;
+ } 
+ /* the end transfer */ 
+
+ /* parametre */
+.parametre{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    top: 4vh;
+    border-radius: 1vh;
+    margin: 0 auto;
+    left: -5vh;
+    overflow: hidden;
+}
+.add_ajouter
+{
+    width: 35vh;
+    height: 15vh;
+    box-shadow: 1px 1px 5px #aaa;
+    margin: 3vh;
+    overflow: hidden;
+    transform: scale(1);
+}
+
+.add_ajouter:hover{
+    cursor: pointer;
+}
+
+.add_ajouter:active{
+    transform: scale(9.95);
+}
+
+.add_ajouter h1{
+    font-size: 2vh;
+}
+
+.add_ajouter img
+{
+    float: left;
+    width: 15vh;
+    height: 15vh;
+    margin: 0 0 1vh 0;
+}
+ /* the end parametre */
+
+ /* view_member */
+ .view_member{
+    width: 50vh;
+    height: 15vh;
+    box-shadow: 1px 2px 3px #aaa;
+    border-radius: 1vh;
+    overflow: hidden;
+    transform: scale(1);
+ } 
+ .view_member:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+ }
+ 
+ .view_member img{
+    float: left;
+    height: 15vh;
+    width: 15vh;
+    padding: 0 2vh 0 0;
+}
+
+.view_member p{
+    margin: 0;
+}
+ /* the  view_member */ 
+
+ /* upod */
+ .upod{
+    margin: 0 5vh;
+    padding: 0;
+    list-style-type: none;
+    width: 40vh;
+ }
+
+ .upod li{
+     margin: 0 ;
+     width: 15vh;
+     box-shadow: 1px 1px 1px #aaa;
+     margin: 0.5vh 1vh;
+     padding: 1vh 0;
+     float: left;
+     font-size: 2vh;
+     transform: scale(1);
+ }
+
+ .upod li:hover{
+     background-color: rgba(0, 0, 0, 0.11);
+     cursor: pointer;
+ }
+
+ .upod li:active{
+    transform: scale(0.95);
+ }
+
+ .act_m{
+     background-color: darkcyan;
+     color: white;
+ }
+ /* the end upod */
+
+ /* menu_stat */
+ .menu_stat{
+    position: fixed;
+    top: 110%;
+    left: 46vh;
+    width: 61.5vh;
+    height: 6vh;
+    background-color: white;
+    border-radius: 1vh;
+    overflow: hidden;
+    z-index: 10;
+    box-shadow: 1px 1px 1px #aaa;
+ }
+
+ .menu_stat ul{
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+ }
+
+ .menu_stat ul li{
+     margin: 0 auto;
+     display: inline-block;
+     font-size: 2vh;
+     width: 15vh;
+     height: 6.2vh;
+     text-align: center;
+     line-height: 5vh;
+     font-family: calibri;
+     font-weight: 300;
+     overflow: hidden;
+     transition: 500ms;
+ }
+
+ .menu_stat ul li:hover{
+    cursor: pointer;
+    background-color: rgba(170, 170, 170, 0.493); 
+    color: red; 
+    font-size: 3vh;
+ }
+
+ .menu_stat ul li:active{
+    font-size: 1vh;
+ }
+
+ .act_stat{
+    color: red;
+    border-bottom: 0.5vh solid red;
+ }
+
+ .menu_general{
+    position: fixed;
+    top: 8%;
+    left: 25.5vh;
+    background-color: green;
+    border-radius: 1vh;
+    overflow: hidden;
+    z-index: 10;
+    padding: 1vh;
+    height: 5vh;
+ }
+ /* the end menu_stat */
+
+ /* vew */
+ #vew{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+ }
+ /* the  vew */
+
+ /** view */
+ .view{
+     background-color: white;
+     border-radius: 1vh;
+     overflow: hidden;
+     margin: 2vh 3vh;
+     padding: 0;
+     position: relative;
+     z-index: 1;
+ }
+ .view h1{
+     background-color: green;
+     width: 100%;
+     height: 4vh;
+     margin: 0;
+     color:white;
+    font-size:2vh;
+    padding:1vh
+ } 
+
+ .veiw_content{
+     padding: 1.5vh;
+ }
+ /** the end view */
+
+ /* recap */
+ .recap{
+    width: 90%;
+    margin: -2vh auto;
+    background-color: white;
+    padding: 1vh;
+    border-radius: 1vh;
+    padding: 1vh;
+    
+ }
+
+ .recap_suivi{
+     width: 80%;
+     margin: 0 auto;
+     background-color: white;
+     border-radius: 1vh;
+     overflow: hidden;
+     padding: 1vh;
+ }
+
+ .recap_suivi h1{
+     height: 4vh;
+     background-color: green;
+     font-size: 2vh;
+     color:white;
+     padding: 1vh;
+     margin: 0;
+ }
+ /* the end recap */
+
+ /* vue */
+ .vue{
+    width: 60%; 
+    background-color: white;
+ }
+
+ /* vue */
+
+ /* admin*/
+.admin{
+    margin: 40vh auto;
+    width: 30vh;
+    height: 30vh;
+}
+.admin-form{
+    width: 100%;
+    height: 5vh;
+    margin: 0.5vh 0;
+    border-radius: 2vh;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.admin-form[placeholder]{
+    text-align: center;
+    font-family: calibri;
+    font-size: 2vh;
+    color:white;
+}
+
+.admin-form:active{
+    outline: none;
+}
+
+.sub-adm{
+    width: 100%;
+    height: 5vh;
+    border-radius: 2vh;
+    border: none;
+    color: white;
+    background-color: green;
+    transform: scale(1);
+}
+.sub-adm:active{
+    transform: scale(0.95);
+}
+ /* the end admin */
+
+
+ /* add_admin */
+ .add_admin {
+    position: fixed;
+    top: 20vh;
+    width: 40vh;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    left: 55vh;
+    border-radius: 1vh;
+    box-shadow: 1px 1px 1px #aaa;
+    z-index: 15;
+    overflow: hidden;
+ }
+ .add_admin_io {
+    position: fixed;
+    top: 20vh;
+    width: 40vh;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    left: 55vh;
+    border-radius: 1vh;
+    box-shadow: 1px 1px 1px #aaa;
+    z-index: 15;
+    overflow: hidden;
+ } 
+ .add_admin_io h2{
+    height: 4vh;
+    background-color: deepskyblue;
+    font-size: 2vh;
+    color:white;
+    padding: 1vh;
+    margin: 0;
+    text-align: center;;
+ }
+ .add_admin h2{
+    height: 4vh;
+    background-color: deepskyblue;
+    font-size: 2vh;
+    color:white;
+    padding: 1vh;
+    margin: 0;
+    text-align: center;;
+
+ }
+
+ .view_admin{
+     width: 35vh;
+     height: 10vh;
+     box-shadow: 1px 1px 4px #aaa;
+     margin: 2vh 1vh;
+ }
+ /* the end add_admin */
+
+
+ /* billetage */
+.billetage{
+    position: fixed;
+    right: 25vh;
+    width:30vh;
+    height: auto;
+    background-color: white;
+    top: 21vh;
+    float: right;
+    border-radius: 1vh;
+    overflow: hidden; 
+}
+.billetage input{
+    width: 6vh;
+    border: 1px solid;
+}
+.billetage h4{
+    margin: 0 ;
+    padding: 1vh;
+    text-align: center;
+    width: 100%;
+    background-color: green;
+    color: white;
+    font-size: 2vh;
+}
+ /* the end billetage */
+
+ /* update */
+ #update{
+    position: fixed;
+    top:10vh;
+    left: 3vh;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 10vh;
+    border:3px solid;
+    transform: scale(1);
+    z-index: 14;
+ }
+ #update:hover{
+     cursor: pointer;
+    transform: scale(1);
+ }
+ 
+ #update:active{
+   transform: scale(0.95);
+ }
+
+ #retour{
+    position: fixed;
+    top:10vh;
+    left: 3vh;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 10vh;
+    border:3px solid;
+    transform: scale(1);
+    z-index: 14;
+ }
+ #retour:hover{
+     cursor: pointer;
+    transform: scale(1);
+ }
+ 
+ #retour:active{
+
+   transform: scale(0.95);
+
+ }
+
+ .update{
+     top: 6vh;
+    width: 60%;
+    margin: 11vh auto;
+    border-radius: 1vh;
+    padding: 1vh;
+    background-color: white;
+ }
+ .updat{
+    width: 100%;
+    margin: 1vh 0;
+    height: 5vh;
+    border-radius: 1vh;
+    display: block;
+    transform: scale(1);
+    padding: 0.7vh;
+ }
+ .updat:hover{
+    cursor: pointer;
+ }
+
+ .updat:active{
+    transform: scale(0.98);
+ }
+ /* the end update */
+
+ /* ajouter */
+ .ajouter{
+    width: 10vh;
+    height: 3.5vh;
+    background-color: white;
+    border-radius: 1vh;
+    margin: -6.5vh 1vh 1vh ;
+    text-align: center;
+    display: block;
+    line-height: 3vh;
+    text-decoration: none;
+    right: 2;
+    float: right;
+    position: relative;
+    border:none;
+    box-shadow: 1px 1px 1px #aaa;
+    cursor: pointer;
+ }
+ .ajouter:active{
+     transform: scale(0.95);
+ }
+ /* the end  ajouter */
